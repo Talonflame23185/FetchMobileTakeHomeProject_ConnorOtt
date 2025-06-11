@@ -1,9 +1,16 @@
-import SwiftUI
+//
+//  ImageCache.swift
+//  FetchMobileTakeHomeProject_ConnorOtt
+//
+//  Created by Connor Ott on 6/4/25.
+//
 
+import SwiftUI
+// service for properly caching the images
 class ImageCache {
     static let shared = ImageCache()
     private let fileManager = FileManager.default
-    private let cacheDirectory: URL
+    public let cacheDirectory: URL
 
     private init() {
         let paths = fileManager.urls(for: .cachesDirectory, in: .userDomainMask)

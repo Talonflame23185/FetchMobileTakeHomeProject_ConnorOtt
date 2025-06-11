@@ -1,5 +1,12 @@
-import SwiftUI
+//
+//  RecipeRowView.swift
+//  FetchMobileTakeHomeProject_ConnorOtt
+//
+//  Created by Connor Ott on 6/10/25.
+//
 
+import SwiftUI
+// UI implementation for row of recipes
 struct RecipeRowView: View {
     let recipe: Recipe
 

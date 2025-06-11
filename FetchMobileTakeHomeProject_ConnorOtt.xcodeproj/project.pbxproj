@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		BB7417952DF9020A00D5DCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB68D1862DF0D3FA00D6D74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB68D18D2DF0D3FA00D6D74C;
+			remoteInfo = FetchMobileTakeHomeProject_ConnorOtt;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		BB68D18E2DF0D3FA00D6D74C /* FetchMobileTakeHomeProject_ConnorOtt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchMobileTakeHomeProject_ConnorOtt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7417912DF9020A00D5DCF6 /* FetchMobileTakeHomeProject_ConnorOttTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchMobileTakeHomeProject_ConnorOttTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = FetchMobileTakeHomeProject_ConnorOtt;
 			sourceTree = "<group>";
 		};
+		BB7417922DF9020A00D5DCF6 /* FetchMobileTakeHomeProject_ConnorOttTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FetchMobileTakeHomeProject_ConnorOttTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BB68D18B2DF0D3FA00D6D74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB74178E2DF9020A00D5DCF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				BB68D1902DF0D3FA00D6D74C /* FetchMobileTakeHomeProject_ConnorOtt */,
+				BB7417922DF9020A00D5DCF6 /* FetchMobileTakeHomeProject_ConnorOttTests */,
 				BB68D18F2DF0D3FA00D6D74C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				BB68D18E2DF0D3FA00D6D74C /* FetchMobileTakeHomeProject_ConnorOtt.app */,
+				BB7417912DF9020A00D5DCF6 /* FetchMobileTakeHomeProject_ConnorOttTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = BB68D18E2DF0D3FA00D6D74C /* FetchMobileTakeHomeProject_ConnorOtt.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BB7417902DF9020A00D5DCF6 /* FetchMobileTakeHomeProject_ConnorOttTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7417972DF9020A00D5DCF6 /* Build configuration list for PBXNativeTarget "FetchMobileTakeHomeProject_ConnorOttTests" */;
+			buildPhases = (
+				BB74178D2DF9020A00D5DCF6 /* Sources */,
+				BB74178E2DF9020A00D5DCF6 /* Frameworks */,
+				BB74178F2DF9020A00D5DCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB7417962DF9020A00D5DCF6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB7417922DF9020A00D5DCF6 /* FetchMobileTakeHomeProject_ConnorOttTests */,
+			);
+			name = FetchMobileTakeHomeProject_ConnorOttTests;
+			packageProductDependencies = (
+			);
+			productName = FetchMobileTakeHomeProject_ConnorOttTests;
+			productReference = BB7417912DF9020A00D5DCF6 /* FetchMobileTakeHomeProject_ConnorOttTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -83,6 +131,10 @@
 					BB68D18D2DF0D3FA00D6D74C = {
 						CreatedOnToolsVersion = 16.3;
 					};
+					BB7417902DF9020A00D5DCF6 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = BB68D18D2DF0D3FA00D6D74C;
+					};
 				};
 			};
 			buildConfigurationList = BB68D1892DF0D3FA00D6D74C /* Build configuration list for PBXProject "FetchMobileTakeHomeProject_ConnorOtt" */;
@@ -94,18 +146,28 @@
 			);
 			mainGroup = BB68D1852DF0D3FA00D6D74C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BB68D18F2DF0D3FA00D6D74C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BB68D18D2DF0D3FA00D6D74C /* FetchMobileTakeHomeProject_ConnorOtt */,
+				BB7417902DF9020A00D5DCF6 /* FetchMobileTakeHomeProject_ConnorOttTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BB68D18C2DF0D3FA00D6D74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB74178F2DF9020A00D5DCF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +184,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB74178D2DF9020A00D5DCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB7417962DF9020A00D5DCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB68D18D2DF0D3FA00D6D74C /* FetchMobileTakeHomeProject_ConnorOtt */;
+			targetProxy = BB7417952DF9020A00D5DCF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BB68D1972DF0D3FD00D6D74C /* Debug */ = {
@@ -261,6 +338,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +367,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,6 +378,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB7417982DF9020A00D5DCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y679JK6TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ac23185.FetchMobileTakeHomeProject-ConnorOttTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchMobileTakeHomeProject_ConnorOtt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchMobileTakeHomeProject_ConnorOtt";
+			};
+			name = Debug;
+		};
+		BB7417992DF9020A00D5DCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y679JK6TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ac23185.FetchMobileTakeHomeProject-ConnorOttTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchMobileTakeHomeProject_ConnorOtt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchMobileTakeHomeProject_ConnorOtt";
 			};
 			name = Release;
 		};
@@ -319,6 +434,15 @@
 			buildConfigurations = (
 				BB68D19A2DF0D3FD00D6D74C /* Debug */,
 				BB68D19B2DF0D3FD00D6D74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7417972DF9020A00D5DCF6 /* Build configuration list for PBXNativeTarget "FetchMobileTakeHomeProject_ConnorOttTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7417982DF9020A00D5DCF6 /* Debug */,
+				BB7417992DF9020A00D5DCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

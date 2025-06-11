@@ -1,5 +1,11 @@
+//
+//  RecipeDetailView.swift
+//  FetchMobileTakeHomeProject_ConnorOtt
+//
+//  Created by Connor Ott on 6/10/25.
+//
 import SwiftUI
-
+// UI implementation for a detailed view for each recipe
 struct RecipeDetailView: View {
     let recipe: Recipe
 
